@@ -2,7 +2,7 @@ spring:
     #数据源配置
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
-        url: jdbc:mysql://106.12.55.131/mybase?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+        url: jdbc:mysql://106.12.55.131/ph?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
         password: root
         driver-class-name: com.mysql.cj.jdbc.Driver
@@ -20,6 +20,16 @@ spring:
         min-evictable-idle-time-millis: 300000
         connection-init-sqls: ["SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci"]
 
-
+    #redis连接配置
+    redis:
+        database: 8
+        host: 106.12.55.131
+        port: 6379
+        password:
+        app: base
+    data:
+        redis:
+          repositories:
+            enabled: false
 
 

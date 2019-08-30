@@ -1,9 +1,7 @@
 server:
     port: 8092
     servlet:
-        context-path: /user
-
-
+        context-path: /usermodule
 spring:
     profiles:
         active: dev
@@ -21,17 +19,7 @@ spring:
         date-format: yyyy-MM-dd HH:mm:ss
         time-zone: GMT+8
 
-    #redis连接配置
-    redis:
-        database: 8
-        host: 106.12.55.131
-        port: 6379
-        password:
-        app: base
-    data:
-        redis:
-          repositories:
-            enabled: false
+
 
 
 

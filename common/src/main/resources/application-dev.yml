@@ -2,7 +2,7 @@ spring:
     #数据源配置
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
-        url: jdbc:mysql://106.12.55.131/mybase?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+        url: jdbc:mysql://106.12.55.131/ph?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
         password: root
         driver-class-name: com.mysql.cj.jdbc.Driver

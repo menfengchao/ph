@@ -1,9 +1,12 @@
 package org.men.user.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+
+import lombok.*;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
  * @ClassName User
@@ -15,9 +18,32 @@ import lombok.ToString;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 @ToString
-public class User {
-
+@Builder
+@Table(name = "u_user")
+public class User implements Serializable {
+    /**
+     * 用户id
+     */
+    @Id
+    private String id;
+    /**
+     * 用户姓名
+     */
+    private String name;
+    /**
+     * 用户电话
+     */
+    private String phone;
+    /**
+     * 用户来源
+     */
+    private String source;
+    /**
+     * 用户创建时间
+     */
+    private String createTime;
 
 
 }
