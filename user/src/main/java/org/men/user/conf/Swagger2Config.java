@@ -1,5 +1,6 @@
 package org.men.user.conf;
 
+import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
@@ -14,6 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
+@EnableSwaggerBootstrapUI
 @Profile(value = {"dev","test"})
 public class Swagger2Config {
 
@@ -21,6 +23,7 @@ public class Swagger2Config {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
+                .groupName("user")
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("org.men.user.controllerapi"))
                 .paths(PathSelectors.any())

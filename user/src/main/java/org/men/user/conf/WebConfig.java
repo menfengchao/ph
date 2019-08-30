@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig  implements WebMvcConfigurer {
 
     /**
-     * 原生 swagger2-ui 界面
+     * 原生界面配置映射 swagger2-ui
       * @param registry
      */
 //    @Override
@@ -24,7 +24,7 @@ public class WebConfig  implements WebMvcConfigurer {
 //    }
 
     /**
-     * 优雅的UI界面拦截配置 xiaominfo-ui
+     * 优雅的UI界面拦截配置映射  viboot-swagger2
      * https://doc.xiaominfo.com/guide/springfox-swagger.html
      * @param registry
      */
@@ -35,4 +35,5 @@ public class WebConfig  implements WebMvcConfigurer {
         registry.addResourceHandler("doc.html").addResourceLocations("classpath:/META-INF/resources/");
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
+
 }
