@@ -3,6 +3,7 @@ package org.men.user.entity;
 
 import lombok.*;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -31,19 +32,29 @@ public class User implements Serializable {
     /**
      * 用户姓名
      */
+    @Column(name = "name")
     private String name;
     /**
      * 用户电话
      */
+    @Column(name = "phone")
     private String phone;
     /**
      * 用户来源
      */
+    @Column(name = "source")
     private String source;
     /**
      * 用户创建时间
      */
+    @Column(name = "create_time")
     private String createTime;
 
+    @Column(name = "password")
+    private String password;
 
+    @Column(name = "role")
+    private String role;
+
+    
 }
