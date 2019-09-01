@@ -1,5 +1,6 @@
 package org.men.user.entity;
 
+import lombok.Data;
 import lombok.ToString;
 import org.men.common.utils.IdWorker;
 import org.springframework.security.core.GrantedAuthority;
@@ -14,6 +15,7 @@ import java.util.Collections;
  * 用来做登录权限处理的对象
  */
 @ToString
+@Data
 public class JwtUser implements UserDetails {
 
 
