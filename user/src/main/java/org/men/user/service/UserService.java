@@ -39,11 +39,16 @@ public class UserService  implements UserDetailsService {
         return null;
     }
 
-    public User save(User user) {
+    public User save(User registerUser) {
+        User user = new User();
         user.setId(IdWorker.getId());
-        user.setCreateTime(CommonUtils.getStringDate(new Date()));
-        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+        user.setName(registerUser.getName());
+        // 记得注册的时候把密码加密一下
+        user.setPassword(bCryptPasswordEncoder.encode(registerUser.getPassword()));
         user.setRole("ROLE_USER");
+        user.setPhone(registerUser.getPhone());
+        user.setSource(registerUser.getSource());
+        user.setCreateTime(CommonUtils.getStringDate(new Date()));
         return userRepository.save(user);
     }
 
