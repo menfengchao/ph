@@ -20,7 +20,7 @@ public class JwtUser implements UserDetails {
 
 
     private String id;
-    private String username;
+    private String name;
     private String password;
     private Collection<? extends GrantedAuthority> authorities;
 
@@ -30,7 +30,7 @@ public class JwtUser implements UserDetails {
     // 写一个能直接使用user创建jwtUser的构造器
     public JwtUser(User user) {
         id = IdWorker.getId();
-        username = user.getName();
+        name = user.getName();
         password = user.getPassword();
         authorities = Collections.singleton(new SimpleGrantedAuthority(user.getRole()));
     }
@@ -48,7 +48,7 @@ public class JwtUser implements UserDetails {
 
     @Override
     public String getUsername() {
-        return username;
+        return name;
     }
 
     // 账号是否未过期，默认是false，记得要改一下

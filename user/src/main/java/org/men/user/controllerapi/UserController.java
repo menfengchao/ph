@@ -7,7 +7,7 @@ import org.men.user.entity.User;
 
 /**
  * @ClassName UserController
- * @Description 用户对外接口
+ * @Description 用户相关接口
  * @Author SuperMen
  * Date 2019/8/30 16:17
  * @Version 1.0

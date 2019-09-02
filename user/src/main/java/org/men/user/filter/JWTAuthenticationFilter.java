@@ -1,13 +1,21 @@
 package org.men.user.filter;
 
+import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import io.swagger.annotations.ApiOperation;
+import org.men.common.response.ResponseVO;
 import org.men.common.utils.JwtTokenUtils;
 import org.men.user.entity.JwtUser;
+import org.men.user.entity.User;
+import org.men.user.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
@@ -26,9 +34,16 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
     private AuthenticationManager authenticationManager;
 
+    /**
+     * 显示调整登录接口
+     * @param authenticationManager
+     */
     public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
+        super.setFilterProcessesUrl("/auth/login");
         this.authenticationManager = authenticationManager;
+
     }
+
 
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request,
@@ -73,7 +88,8 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
         jwtUser.setPassword("password");
         map.put("user",jwtUser);
         map.put("token", JwtTokenUtils.TOKEN_PREFIX + token);
-        writer.write(map.toString());
+        JSONObject json = new JSONObject(map);
+        writer.write(json.toString());
         jwtUser.setPassword(password);
     }
 
