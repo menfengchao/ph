@@ -37,7 +37,7 @@ public class Swagger2Config {
                 //描述
                 .description("Restful-API-Doc")
                 .termsOfServiceUrl("https://www.cnblogs.com/viyoung")
-                .contact(new Contact("Vi的技术博客", "https://www.cnblogs.com/viyoung", "18530069930@163.com"))
+                .contact(new Contact("Vi的技术博客", "https://www.cnblogs.com/viyoung","18530069930@163.com"))
                 //版本
                 .version("1.0")
                 .build();

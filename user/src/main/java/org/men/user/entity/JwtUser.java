@@ -22,6 +22,8 @@ public class JwtUser implements UserDetails {
     private String id;
     private String name;
     private String password;
+    private String sessionId;
+
     private Collection<? extends GrantedAuthority> authorities;
 
     public JwtUser() {

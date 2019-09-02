@@ -22,14 +22,19 @@ spring:
 
     #redis连接配置
     redis:
-        database: 8
-        host: 106.12.55.131
-        port: 6379
-        password:
-        app: base
+      database: 22
+      host: 106.12.150.85
+      port: 6789
+      password: ai_redis
+      app: hfh
     data:
         redis:
           repositories:
             enabled: false
 
 
+
+# 应用初始化参数配置
+system:
+  # session有效时长（分钟）
+  session-times: 43200
