@@ -1,10 +1,12 @@
 package org.men.user.conf;
 
+import org.men.common.execption.JWTAuthenticationEntryPoint;
 import org.men.user.filter.JWTAuthenticationFilter;
 import org.men.user.filter.JWTAuthorizationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -43,16 +45,21 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable()
-                .authorizeRequests()
+                 .authorizeRequests()
                 // 测试用资源，需要验证了的用户才能访问
                 .antMatchers("/user/**").authenticated()
+                // 需要角色为ADMIN才能删除该资源  接口上配合注释
+                .antMatchers(HttpMethod.DELETE, "/user/**").hasAuthority("ADMIN")
                 // 其他都放行了
                 .anyRequest().permitAll()
                 .and()
                 .addFilter(new JWTAuthenticationFilter(authenticationManager()))
                 .addFilter(new JWTAuthorizationFilter(authenticationManager()))
                 // 不需要session
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                .and()
+                // 加一句异常处理
+                .exceptionHandling().authenticationEntryPoint(new JWTAuthenticationEntryPoint());
     }
 
     @Bean

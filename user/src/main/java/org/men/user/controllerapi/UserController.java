@@ -20,4 +20,7 @@ public interface UserController {
 
     @ApiOperation(value = "保存用户",notes = "保存用户")
     ResponseVO<User> save(User user);
+
+    @ApiOperation(value = "删除用户",notes = "删除用户")
+    ResponseVO<Boolean> delete(String id);
 }

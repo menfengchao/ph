@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.util.JSONPObject;
 import io.swagger.annotations.ApiOperation;
+import org.men.common.model.LoginUser;
 import org.men.common.response.ResponseVO;
 import org.men.common.utils.JwtTokenUtils;
 import org.men.user.entity.JwtUser;
@@ -14,6 +15,7 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.bind.annotation.PostMapping;
 
@@ -24,6 +26,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -33,6 +36,8 @@ import java.util.Map;
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     private AuthenticationManager authenticationManager;
+
+    private ThreadLocal<Integer> rememberMe = new ThreadLocal<>();
 
     /**
      * 显示调整登录接口
@@ -51,7 +56,8 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
         // 从输入流中获取到登录的信息
         try {
-            JwtUser loginUser = new ObjectMapper().readValue(request.getInputStream(), JwtUser.class);
+            LoginUser loginUser = new ObjectMapper().readValue(request.getInputStream(), LoginUser.class);
+            rememberMe.set(loginUser.getRememberMe());
             Authentication authenticate = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(loginUser.getUsername(), loginUser.getPassword(), new ArrayList<>())
             );
@@ -69,11 +75,16 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
                                             HttpServletResponse response,
                                             FilterChain chain,
                                             Authentication authResult) throws IOException, ServletException {
-
-        // 查看源代码会发现调用getPrincipal()方法会返回一个实现了`UserDetails`接口的对象
-        // 所以就是JwtUser啦
         JwtUser jwtUser = (JwtUser) authResult.getPrincipal();
-        String token = JwtTokenUtils.createToken(jwtUser.getUsername(), false);
+        boolean isRemember = rememberMe.get() == 1;
+        String role = "";
+        // 因为在JwtUser中存了权限信息，可以直接获取，由于只有一个角色就这么干了
+        Collection<? extends GrantedAuthority> authorities = jwtUser.getAuthorities();
+        for (GrantedAuthority authority : authorities){
+            role = authority.getAuthority();
+        }
+        // 根据用户名，角色创建token
+        String token = JwtTokenUtils.createToken(jwtUser.getUsername(), role, isRemember);
 
         // 返回创建成功的token
         // 但是这里创建的token只是单纯的token

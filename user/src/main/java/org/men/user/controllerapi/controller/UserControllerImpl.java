@@ -5,6 +5,7 @@ import org.men.user.controllerapi.UserController;
 import org.men.user.entity.User;
 import org.men.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -33,5 +34,13 @@ public class UserControllerImpl implements UserController {
     public ResponseVO<User> save(@RequestBody User user) {
         User resultUser = userService.save(user);
         return new ResponseVO<>(resultUser);
+    }
+
+    @Override
+    @DeleteMapping(value= "delete")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseVO<Boolean> delete(@RequestParam(name = "id",value = "id") String id) {
+        Boolean result = userService.delete(id);
+        return new ResponseVO<>(result);
     }
 }

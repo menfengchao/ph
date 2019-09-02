@@ -57,4 +57,9 @@ public class UserService  implements UserDetailsService {
         User user = userRepository.findByName(s);
         return new JwtUser(user);
     }
+
+    public Boolean delete(final String id) {
+         userRepository.deleteById(id);
+        return true;
+    }
 }
