@@ -56,5 +56,6 @@ public class User implements Serializable {
     @Column(name = "role")
     private String role;
 
-    
+    @Column(name = "login_times")
+    private Integer LoginTimes;
 }

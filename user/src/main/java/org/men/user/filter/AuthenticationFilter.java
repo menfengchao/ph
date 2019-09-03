@@ -2,8 +2,10 @@ package org.men.user.filter;
 
 import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.lang3.StringUtils;
 import org.men.common.model.LoginUser;
 import org.men.common.utils.CommonUtils;
+import org.men.common.utils.EncryptDecodeStr;
 import org.men.user.conf.RedisConfig;
 import org.men.user.entity.JwtUser;
 import org.men.user.entity.User;
@@ -89,19 +91,34 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     }
 
     private String saveKeyRedis(final String name) {
-        String sessionId = CommonUtils.uuid();
+
         StringRedisTemplate redisTemplate = (StringRedisTemplate) SpringUtils.getBean("stringRedisTemplate");
         UserService userService = (UserService) SpringUtils.getBean("userService");
         User byName = userService.findByName(name);
         RedisConfig  redisConfig = (RedisConfig) SpringUtils.getBean("redisConfig");
-        redisTemplate.opsForValue().set(sessionId,byName.getId());
-        if(-1 != redisConfig.getSessionTimes()){
-            redisTemplate.expire(sessionId, redisConfig.getSessionTimes(), TimeUnit.MINUTES);
-        }else{
-            //最多30天自动失效
-            redisTemplate.expire(sessionId, 720, TimeUnit.HOURS);
+        Integer IncrementOld = byName.getLoginTimes()==null?0:byName.getLoginTimes();
+        EncryptDecodeStr encryptDecodeStr = new EncryptDecodeStr(IncrementOld.toString());
+        try {
+            String  sessionId =  encryptDecodeStr.encrypt(byName.getId());
+            String userId = redisTemplate.opsForValue().get(sessionId);
+            if(StringUtils.isBlank(userId)){
+                Integer Increment = byName.getLoginTimes()==null?0:byName.getLoginTimes()+1;
+                byName.setLoginTimes(Increment);
+                userService.save(byName);
+                EncryptDecodeStr encryptDecodeNew = new EncryptDecodeStr(Increment.toString());
+                sessionId = encryptDecodeNew.encrypt(byName.getId());
+                redisTemplate.opsForValue().set(sessionId,byName.getId());
+            }
+            if(-1 != redisConfig.getSessionTimes()){
+                redisTemplate.expire(sessionId, redisConfig.getSessionTimes(), TimeUnit.MINUTES);
+            }else{
+                //最多30天自动失效
+                redisTemplate.expire(sessionId, 720, TimeUnit.HOURS);
+            }
+            return sessionId;
+        }catch (Exception e){
+            return "";
         }
-        return sessionId;
     }
 
     // 这是验证失败时候调用的方法
