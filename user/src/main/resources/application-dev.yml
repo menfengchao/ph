@@ -22,11 +22,11 @@ spring:
 
     #redis连接配置
     redis:
-      database: 22
+      database: 27
       host: 106.12.150.85
       port: 6789
       password: ai_redis
-      app: hfh
+      app: ph
     data:
         redis:
           repositories:

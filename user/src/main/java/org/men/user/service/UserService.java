@@ -39,6 +39,11 @@ public class UserService  implements UserDetailsService {
         return null;
     }
 
+    public User findByName(final String name) {
+        return userRepository.findByName(name);
+    }
+
+
     public User save(User registerUser) {
         User user = new User();
         user.setId(IdWorker.getId());

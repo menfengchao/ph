@@ -1,8 +1,9 @@
 package org.men.user.conf;
 
-import org.men.common.execption.JWTAuthenticationEntryPoint;
-import org.men.user.filter.JWTAuthenticationFilter;
-import org.men.user.filter.JWTAuthorizationFilter;
+
+import org.men.common.execption.MyAuthenticationEntryPoint;
+import org.men.user.filter.AuthenticationFilter;
+import org.men.user.filter.AuthorizationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -85,13 +86,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 // 其他都放行了
                 .anyRequest().permitAll()
                 .and()
-                .addFilter(new JWTAuthenticationFilter(authenticationManager()))
-                .addFilter(new JWTAuthorizationFilter(authenticationManager()))
+                .addFilter(new AuthenticationFilter(authenticationManager()))
+                .addFilter(new AuthorizationFilter(authenticationManager()))
                 // 不需要session
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 // 加一句异常处理
-                .exceptionHandling().authenticationEntryPoint(new JWTAuthenticationEntryPoint())
+                .exceptionHandling().authenticationEntryPoint(new MyAuthenticationEntryPoint())
 
                 //以下为附加配置
                 .and()
