@@ -47,11 +47,16 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     }
 
-
+    /**
+     * 登录认证方法
+     * @param request
+     * @param response
+     * @return
+     * @throws AuthenticationException
+     */
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request,
                                                 HttpServletResponse response) throws AuthenticationException {
-
         // 从输入流中获取到登录的信息
         try {
             LoginUser loginUser = new ObjectMapper().readValue(request.getInputStream(), LoginUser.class);
