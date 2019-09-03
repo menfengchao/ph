@@ -83,7 +83,6 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
         String password = jwtUser.getPassword();
         jwtUser.setPassword("password");
         map.put("user",jwtUser);
-
         map.put("token", sessionId);
         JSONObject json = new JSONObject(map);
         writer.write(json.toString());
@@ -91,24 +90,33 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     }
 
     private String saveKeyRedis(final String name) {
-
         StringRedisTemplate redisTemplate = (StringRedisTemplate) SpringUtils.getBean("stringRedisTemplate");
         UserService userService = (UserService) SpringUtils.getBean("userService");
+        //1:登录成功后 通过用户名获取用户 上次登录加密字符串 及用户id
         User byName = userService.findByName(name);
-        RedisConfig  redisConfig = (RedisConfig) SpringUtils.getBean("redisConfig");
+        //首次登录随便给个加密字符串 查询不到 自然设置新的
         Integer IncrementOld = byName.getLoginTimes()==null?0:byName.getLoginTimes();
         EncryptDecodeStr encryptDecodeStr = new EncryptDecodeStr(IncrementOld.toString());
         try {
+            //1.1 根据用户id 和 上次机密字符串算出 上次 sessionId 查看上次sessionId是否存在
             String  sessionId =  encryptDecodeStr.encrypt(byName.getId());
+            //1.2查看上次sessionId是否存在
             String userId = redisTemplate.opsForValue().get(sessionId);
+            //1.3 如果不存在 生成sessionId
             if(StringUtils.isBlank(userId)){
-                Integer Increment = byName.getLoginTimes()==null?0:byName.getLoginTimes()+1;
+                //2:生成随机加密字符串
+                Integer Increment = (int)((Math.random()*9+1)*100000);
                 byName.setLoginTimes(Increment);
+                //2.1保存加密字符串第一步使用
                 userService.save(byName);
+                //2.2 userId与加密字符串生成sessionId
                 EncryptDecodeStr encryptDecodeNew = new EncryptDecodeStr(Increment.toString());
                 sessionId = encryptDecodeNew.encrypt(byName.getId());
+                //2.3 将 sessionId 作为key userId 作为value存入redis
                 redisTemplate.opsForValue().set(sessionId,byName.getId());
             }
+            //3:根据配置获取sessionId有效时间  无论是使用新生成的sessionId 还是没有过期的sessionId 都重新设置有效期
+            RedisConfig  redisConfig = (RedisConfig) SpringUtils.getBean("redisConfig");
             if(-1 != redisConfig.getSessionTimes()){
                 redisTemplate.expire(sessionId, redisConfig.getSessionTimes(), TimeUnit.MINUTES);
             }else{
@@ -117,7 +125,7 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
             }
             return sessionId;
         }catch (Exception e){
-            return "";
+            return "设置sessionId失败";
         }
     }
 

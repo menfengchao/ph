@@ -17,4 +17,7 @@ public interface UserRegisteredController {
 
     @ApiOperation(value = "注册用户",notes = "/auth")
     ResponseVO<User> registered(User user);
+
+    @ApiOperation(value = "用户登出",notes = "/auth")
+    ResponseVO<Boolean> loginOut( String token);
 }

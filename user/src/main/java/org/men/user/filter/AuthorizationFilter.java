@@ -1,9 +1,7 @@
 package org.men.user.filter;
 
-import org.apache.commons.lang3.StringUtils;
 import org.men.user.conf.RedisConfig;
 import org.men.user.entity.User;
-import org.men.user.execption.ExceptionCast;
 import org.men.user.service.UserService;
 import org.men.user.util.SpringUtils;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -37,7 +35,6 @@ public class AuthorizationFilter extends BasicAuthenticationFilter {
         String tokenHeader = request.getHeader(RedisConfig.TOKEN_HEADER);
         // 如果请求头中没有Authorization信息则直接放行了
         if (tokenHeader == null) {
-            response.setStatus(401);
             chain.doFilter(request, response);
             return;
         }

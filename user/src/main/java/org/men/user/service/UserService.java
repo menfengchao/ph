@@ -1,11 +1,14 @@
 package org.men.user.service;
 
+import org.apache.commons.lang3.StringUtils;
 import org.men.common.utils.CommonUtils;
 import org.men.common.utils.IdWorker;
+import org.men.common.utils.UpdateUtils;
 import org.men.user.dao.jpa.UserRepository;
 import org.men.user.entity.JwtUser;
 import org.men.user.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -29,6 +32,9 @@ public class UserService  implements UserDetailsService {
     UserRepository userRepository;
 
     @Autowired
+    StringRedisTemplate redisTemplate;
+
+    @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
 
@@ -45,16 +51,23 @@ public class UserService  implements UserDetailsService {
 
 
     public User save(User registerUser) {
-        User user = new User();
-        user.setId(IdWorker.getId());
-        user.setName(registerUser.getName());
-        // 记得注册的时候把密码加密一下
-        user.setPassword(bCryptPasswordEncoder.encode(registerUser.getPassword()));
-        user.setRole("ROLE_USER");
-        user.setPhone(registerUser.getPhone());
-        user.setSource(registerUser.getSource());
-        user.setCreateTime(CommonUtils.getStringDate(new Date()));
-        return userRepository.save(user);
+
+        if(StringUtils.isEmpty(registerUser.getId()) ){
+            User user = new User();
+            user.setId(IdWorker.getId());
+            user.setName(registerUser.getName());
+            // 记得注册的时候把密码加密一下
+            user.setPassword(bCryptPasswordEncoder.encode(registerUser.getPassword()));
+            user.setRole("ROLE_USER");
+            user.setPhone(registerUser.getPhone());
+            user.setSource(registerUser.getSource());
+            user.setCreateTime(CommonUtils.getStringDate(new Date()));
+            return userRepository.save(user);
+        }else{
+            User oldUser = findById(registerUser.getId());
+            UpdateUtils.copyNonNullProperties(oldUser, registerUser);
+            return userRepository.save(registerUser);
+        }
     }
 
     @Override
@@ -66,5 +79,10 @@ public class UserService  implements UserDetailsService {
     public Boolean delete(final String id) {
          userRepository.deleteById(id);
         return true;
+    }
+
+    public Boolean loginOut(String token) {
+        Boolean delete = redisTemplate.delete(token);
+        return delete;
     }
 }
