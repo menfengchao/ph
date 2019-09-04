@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/procedureHouse.iml" filepath="$PROJECT_DIR$/procedureHouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testjdk/testjdk.iml" filepath="$PROJECT_DIR$/testjdk/testjdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
     </modules>
   </component>
