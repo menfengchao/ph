@@ -12,12 +12,13 @@ import org.men.user.entity.User;
  * Date 2019/9/2 9:59
  * @Version 1.0
  **/
-@Api(value = "用户登录之前控制器",tags="注册接口")
+@Api(value = "用户登录之前控制器",tags="用户登录之前控制器" )
 public interface UserRegisteredController {
 
-    @ApiOperation(value = "注册用户",notes = "/auth")
+    @ApiOperation(value = "注册用户",notes = "/auth/registered 用户登录 /auth/login")
     ResponseVO<User> registered(User user);
 
-    @ApiOperation(value = "用户登出",notes = "/auth")
+    @ApiOperation(value = "用户登出",notes = "/user/loginOut")
     ResponseVO<Boolean> loginOut( String token);
+
 }
