@@ -33,7 +33,7 @@ public class ListenerAsyncConfiguration implements AsyncConfigurer
         //设置线程池参数
         taskExecutor.setCorePoolSize(5);
         taskExecutor.setMaxPoolSize(10);
-        taskExecutor.setQueueCapacity(25);
+        taskExecutor.setQueueCapacity(100);
         taskExecutor.setKeepAliveSeconds(60);
         taskExecutor.setThreadGroupName("监听线程池");
         taskExecutor.initialize();
