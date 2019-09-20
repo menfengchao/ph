@@ -78,8 +78,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 //允许跨域请求
                 .csrf().disable()
                 .authorizeRequests()
-                // 测试用资源，需要验证了的用户才能访问
-                .antMatchers("/user/**").authenticated()
+                //需要验证了的用户才能访问
+                .antMatchers("/server/**").authenticated()
                 // 需要角色为ADMIN才能删除该资源  接口上配合注释
                 .antMatchers(HttpMethod.DELETE, "/user/**").hasRole("ADMIN")
                 //.hasAuthority("ADMIN")

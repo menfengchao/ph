@@ -36,7 +36,7 @@ public class UserRegisteredControllerImpl implements UserRegisteredController {
     }
 
     @Override
-    @PostMapping(value = "/user/loginOut")
+    @PostMapping(value = "/server/user/loginOut")
     public ResponseVO<Boolean> loginOut(@RequestHeader String token) {
         Boolean result = userService.loginOut(token);
         return new ResponseVO<>(result);

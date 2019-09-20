@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
  * @Version 1.0
  **/
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/server/user")
 public class UserControllerImpl implements UserController {
 
     @Autowired
