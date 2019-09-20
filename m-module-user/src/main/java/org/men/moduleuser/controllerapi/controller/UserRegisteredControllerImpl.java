@@ -32,6 +32,11 @@ public class UserRegisteredControllerImpl implements UserRegisteredController {
     @PostMapping(value = "/auth/registered")
     public ResponseVO<User> registered(@RequestBody User user) {
         User userResult = userService.save(user);
+        try {
+            Thread.sleep(10000);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         return new ResponseVO<>(userResult);
     }
 

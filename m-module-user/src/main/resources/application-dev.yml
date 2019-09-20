@@ -2,14 +2,15 @@ spring:
     #数据源配置
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
-        url: jdbc:mysql://106.12.55.131/ph?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+        #url: jdbc:mysql://127.0.0.1:3306/ph?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+        url: jdbc:mysql://106.12.55.131:3306/ph?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
         password: root
         driver-class-name: com.mysql.cj.jdbc.Driver
         initial-size: 10
         max-active: 40
         min-idle: 5
-        max-wait: 60000
+        max-wait: 6000
         pool-prepared-statements: true
         max-pool-prepared-statement-per-connection-size: 20
         validation-query: SELECT 1

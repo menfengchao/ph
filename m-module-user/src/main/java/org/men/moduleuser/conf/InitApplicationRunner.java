@@ -1,6 +1,9 @@
 package org.men.moduleuser.conf;
 
 import lombok.extern.slf4j.Slf4j;
+import org.men.frameworkcommon.utils.IdWorker;
+import org.men.moduleuser.entity.User;
+import org.men.moduleuser.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -18,10 +21,26 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 public class InitApplicationRunner implements ApplicationRunner {
 
+    @Autowired
+    UserService userService;
+
     @Override
     public void run(final ApplicationArguments args) throws Exception {
         log.info("容器已启动");
+        runAdmin();
     }
+
+    public void runAdmin(){
+        User admin = User.builder().id(IdWorker.getId())
+                .password("123456")
+                .source("1")
+                .name("admin")
+                .build();
+        userService.save(admin);
+    }
+
+
+
 
     /**
      * 启动的时候要注意，由于我们在controller中注入了RestTemplate，所以启动的时候需要实例化该类的一个实例
