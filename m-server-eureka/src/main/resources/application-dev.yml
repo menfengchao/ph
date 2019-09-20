@@ -1,0 +1,15 @@
+spring:
+    #redis连接配置
+    redis:
+      database: 15
+      host: 106.12.55.131
+      port: 6379
+      password:
+      app: ph
+    data:
+        redis:
+          repositories:
+            enabled: false
+
+    application:
+      name: eureka-service

@@ -1,0 +1,40 @@
+spring:
+    #数据源配置
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://106.12.55.131/ph?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        initial-size: 10
+        max-active: 40
+        min-idle: 5
+        max-wait: 60000
+        pool-prepared-statements: true
+        max-pool-prepared-statement-per-connection-size: 20
+        validation-query: SELECT 1
+        test-on-borrow: false
+        test-on-return: false
+        test-while-idle: true
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 300000
+        connection-init-sqls: ["SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci"]
+
+    #redis连接配置
+    redis:
+      database: 15
+      host: 106.12.55.131
+      port: 6379
+      password:
+      app: ph
+    data:
+        redis:
+          repositories:
+            enabled: false
+
+
+
+# 应用初始化参数配置
+system:
+  # session有效时长（分钟）
+  session-times: 43200
