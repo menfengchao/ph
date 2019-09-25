@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.men</groupId>
-    <artifactId>user</artifactId>
+    <artifactId>m-module-user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>user</name>
+    <name>m-module-user</name>
     <description>用户登录权限模块</description>
 
     <properties>
@@ -91,7 +91,7 @@
 
         <dependency>
             <groupId>org.men</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>m-framework-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

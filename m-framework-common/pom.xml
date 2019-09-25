@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.men</groupId>
-    <artifactId>common</artifactId>
+    <artifactId>m-framework-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>common</name>
+    <name>m-framework-common</name>
     <description>公共模块</description>
 
     <properties>

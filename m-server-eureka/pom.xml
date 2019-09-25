@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.mern</groupId>
-    <artifactId>server-eureka</artifactId>
+    <artifactId>m-server-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>server-eureka</name>
+    <name>m-server-eureka</name>
     <description>注册中心服务</description>
 
     <properties>
