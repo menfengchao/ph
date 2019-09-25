@@ -1,0 +1,17 @@
+## 服务名称
+spring:
+  application:
+    name: mModuleArticle
+
+#指定注册中心地址 需要加上 /eureka/
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://127.0.0.1:10000/serverEureka/eureka/,http://127.0.0.1:10100/serverEureka/eureka/
+    eureka-server-connect-timeout-seconds: 5
+
+# 启用ip配置 这样在注册中心列表中看见的是以ip+端口呈现的
+  instance:
+    prefer-ip-address: true
+# 实例名称
+  instance-id: ${spring.cloud.client.ip-address}:${server.port}
