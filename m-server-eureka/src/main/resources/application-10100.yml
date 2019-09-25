@@ -1,5 +1,5 @@
 server:
-    port: 10000
+    port: 10100
     servlet:
         context-path: /serverEureka
 
@@ -13,7 +13,7 @@ eureka:
 ##关闭自我保护模式
     enable-self-preservation: false
   instance:
-    hostname: 127.0.0.1
+    hostname: serverEureka10100
 ##不要向注册中心注册自己
   client:
     register-with-eureka: false
@@ -21,7 +21,6 @@ eureka:
     fetch-registry: false
 ##指定服务注册中心地址 这里直接指向了本服务
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-
+      defaultZone: http://127.0.0.1:10000/serverEureka/eureka/
 
 

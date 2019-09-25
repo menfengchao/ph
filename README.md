@@ -13,5 +13,7 @@
  
 #  2019/9/20
 *  名称很关键 抽时间整理了以下包名     
-    
 
+# 对于集群启动可配置多文件
+   >>> idea配置： run/Dubug configurations -> configuration->environment->Program arguments    
+   >>> 内容： --spring.profiles.active=10000
