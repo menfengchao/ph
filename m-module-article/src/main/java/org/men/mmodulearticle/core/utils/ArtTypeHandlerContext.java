@@ -1,7 +1,6 @@
 package org.men.mmodulearticle.core.utils;
 
 import org.men.mmodulearticle.core.utils.handler.ArtAbstractHandler;
-import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
