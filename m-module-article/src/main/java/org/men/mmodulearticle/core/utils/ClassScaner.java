@@ -22,10 +22,7 @@ import java.util.jar.JarFile;
  * Date 2019/9/26 11:08
  * @Version 1.0
  **/
-public class ClassScaner <T>{
-
-    ClassPathScanningCandidateComponentProvider classScanner = new ClassPathScanningCandidateComponentProvider(false);
-
+public class ClassScaner{
 
     public static List<Class<?>> scan(String hanfdlerPackage, Class<ArtType> artTypeClass) {
         try {
@@ -34,14 +31,12 @@ public class ClassScaner <T>{
         }catch (Exception e){
             e.printStackTrace();
         }
-
         return new ArrayList<>();
     }
 
 
     /**
      * 给我一个包名，获取该包下的所有class文件
-     *
      * @param packageName 包名 com.xxx.xxx
      * @param isRecursive 是否递归
      * @return 返回class文件的集合
@@ -135,13 +130,13 @@ public class ClassScaner <T>{
                                  boolean isRecursive) throws ClassNotFoundException {
         //取到路径下所有的对应的文件，包括.class文件和目录
         File[] files = getClassFiles(packagePath);
-
-        if (files != null) {  //如果files不为空的话，对它进行迭代
-
+        //如果files不为空的话，对它进行迭代
+        if (files != null) {
             for (File file : files) {
-                //取到文件名
-                String fileName = file.getName(); //Column.class
-                if (file.isFile()) {//如果取到的是文件
+                //取到文件名//Column.class
+                String fileName = file.getName();
+                //如果取到的是文件
+                if (file.isFile()) {
                     //取到对应的类名,这里的类名是权限定名
                     String className = getClassName(packageName, fileName);
                     classList.add(Class.forName(className));
@@ -161,7 +156,6 @@ public class ClassScaner <T>{
 
     /**
      * 获取子包名
-     *
      * @param packageName
      * @param fileName
      * @return
@@ -191,7 +185,6 @@ public class ClassScaner <T>{
 
     /**
      * 根据传入的包名和文件名返回对应类的全限定名
-     *
      * @param packageName 包名
      * @param fileName    文件名 	类名.后缀名
      * @return 包名.类名
@@ -212,14 +205,12 @@ public class ClassScaner <T>{
      */
     private static File[] getClassFiles(String packagePath) {
         //FileFilter文件过滤器
-        return new File(packagePath).listFiles(new FileFilter() {
-
+        return new File(packagePath).listFiles(new FileFilter(){
             @Override
             public boolean accept(File file) {
                 //如果是.class文件，或者是目录就返回true
                 return (file.isFile() && file.getName().endsWith(".class")) || file.isDirectory();
             }
-
         });
     }
 }
