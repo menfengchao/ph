@@ -1,4 +1,4 @@
-package org.men.moduleuser.conf;
+package org.men.mmodulearticle.conf;
 
 import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
 import org.springframework.context.annotation.Bean;
@@ -23,9 +23,9 @@ public class Swagger2Config {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
-                .groupName("user")
+                .groupName("article")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("org.men.moduleuser"))
+                .apis(RequestHandlerSelectors.basePackage("org.men.mmodulearticle"))
                 .paths(PathSelectors.any())
                 .build();
     }

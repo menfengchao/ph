@@ -2,13 +2,10 @@ package org.men.mmodulearticle.core.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Lob;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * @ClassName Article
