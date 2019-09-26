@@ -10,5 +10,7 @@ import org.men.mmodulearticle.core.entity.Article;
  * @Version 1.0
  **/
 public interface ArtAbstractHandler {
+
      String handle(Article article);
+
 }
