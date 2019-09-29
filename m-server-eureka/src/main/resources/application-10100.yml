@@ -15,6 +15,6 @@ eureka:
     fetch-registry: false
 ##指定服务注册中心地址 这里直接指向了本服务
     service-url:
-      defaultZone: http://127.0.0.1:10000/serverEureka/eureka/
+      defaultZone: http://127.0.0.1:10200/serverEureka/eureka/
 
 

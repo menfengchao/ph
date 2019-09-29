@@ -15,6 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name = "MMODULEUSER")
 public interface CallUserInterfaceClient {
 
-    @GetMapping(value = "/usermodule/user/findById")
+    @GetMapping(value = "/usermodule/server/user/findById")
     UserDto findById(@RequestParam("id") String id);
 }

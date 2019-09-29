@@ -51,13 +51,13 @@ public class ClassScaner{
             Enumeration<URL> urls = Thread.currentThread().getContextClassLoader().getResources(packageName.replace('.', '/'));
             while (urls.hasMoreElements()) {
                 URL url = urls.nextElement();
-                //System.out.println(url);	//	file:/D:/SXTJava/annotation/bin/annotation
+                //System.out.println(url);
                 if (url != null) {
                     //拿到文件的协议
                     String protocol = url.getProtocol();
                     //如果是file
                     if ("file".equals(protocol)) {
-                        //取到文件的路径 / /D:/SXTJava/annotation/bin/annotation
+                        //取到文件的路径
                         String packagePath = url.getPath();
                         addClass(classList, packagePath, packageName, isRecursive);
                         //如果是jar包的情况:此情况没有测试

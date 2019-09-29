@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-framework-common/m-framework-common.iml" filepath="$PROJECT_DIR$/m-framework-common/m-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-module-article/m-module-article.iml" filepath="$PROJECT_DIR$/m-module-article/m-module-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-module-user/m-module-user.iml" filepath="$PROJECT_DIR$/m-module-user/m-module-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-server-eureka/m-server-eureka.iml" filepath="$PROJECT_DIR$/m-server-eureka/m-server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/procedureHouse.iml" filepath="$PROJECT_DIR$/procedureHouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/testjdk/testjdk.iml" filepath="$PROJECT_DIR$/testjdk/testjdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />

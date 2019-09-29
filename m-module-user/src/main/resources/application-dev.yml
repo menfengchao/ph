@@ -23,8 +23,8 @@ spring:
 
     #redis连接配置
     redis:
-#      database: 15
-#      host: 106.12.55.131
+      #database: 15
+      #host: 106.12.55.131
       database: 33
       host: 106.12.150.85
       port: 6379

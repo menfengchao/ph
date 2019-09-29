@@ -131,6 +131,7 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
             }
             return sessionId;
         } catch (Exception e) {
+            e.printStackTrace();
             return "设置sessionId失败";
         }
     }
