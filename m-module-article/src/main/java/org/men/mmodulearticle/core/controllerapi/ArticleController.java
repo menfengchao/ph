@@ -1,5 +1,6 @@
 package org.men.mmodulearticle.core.controllerapi;
 
+import org.men.frameworkcommon.modelEntity.user.UserDto;
 import org.men.mmodulearticle.core.entity.Article;
 
 /**
@@ -12,4 +13,6 @@ import org.men.mmodulearticle.core.entity.Article;
 public interface ArticleController {
 
     String save(Article articleVo);
+
+    UserDto hellow( String id);
 }
