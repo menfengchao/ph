@@ -16,4 +16,4 @@
 
 # 对于集群启动可配置多文件
    >>> idea配置： run/Dubug configurations -> configuration->environment->Program arguments    
-   >>> 内容： --spring.profiles.active=10000
+   >>> 内容： --spring.profiles.active=10100
