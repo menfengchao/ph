@@ -2,7 +2,7 @@ package org.men.moduleauth.controllerapi;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.men.frameworkcommon.response.ResponseVO;
+import org.men.framework.common.response.ResponseVO;
 import org.men.moduleauth.entity.User;
 
 /**

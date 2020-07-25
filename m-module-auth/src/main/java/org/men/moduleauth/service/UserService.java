@@ -1,9 +1,9 @@
 package org.men.moduleauth.service;
 
 import org.apache.commons.lang3.StringUtils;
-import org.men.frameworkcommon.utils.CommonUtils;
-import org.men.frameworkcommon.utils.IdWorker;
-import org.men.frameworkcommon.utils.UpdateUtils;
+import org.men.framework.common.utils.CommonUtils;
+import org.men.framework.common.utils.IdWorker;
+import org.men.framework.common.utils.UpdateUtils;
 import org.men.moduleauth.dao.jpa.UserRepository;
 import org.men.moduleauth.entity.JwtUser;
 import org.men.moduleauth.entity.User;

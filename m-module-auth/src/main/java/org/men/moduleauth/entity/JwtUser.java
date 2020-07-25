@@ -2,7 +2,7 @@ package org.men.moduleauth.entity;
 
 import lombok.Data;
 import lombok.ToString;
-import org.men.frameworkcommon.utils.IdWorker;
+import org.men.framework.common.utils.IdWorker;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

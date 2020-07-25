@@ -1,7 +1,7 @@
 package org.men.moduleauth.execption;
 
 import lombok.extern.slf4j.Slf4j;
-import org.men.frameworkcommon.response.ResponseVO;
+import org.men.framework.common.response.ResponseVO;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 

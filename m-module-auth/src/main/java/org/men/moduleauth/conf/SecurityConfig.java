@@ -1,7 +1,7 @@
 package org.men.moduleauth.conf;
 
 
-import org.men.frameworkcommon.execption.MyAuthenticationEntryPoint;
+import org.men.framework.common.execption.MyAuthenticationEntryPoint;
 import org.men.moduleauth.filter.AuthenticationFilter;
 import org.men.moduleauth.filter.AuthorizationFilter;
 import org.springframework.beans.factory.annotation.Autowired;

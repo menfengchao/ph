@@ -5,11 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/m-framework-common/pom.xml" />
-        <option value="$PROJECT_DIR$/m-module-article/pom.xml" />
         <option value="$PROJECT_DIR$/m-module-user/pom.xml" />
-        <option value="$PROJECT_DIR$/m-server-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/m-module-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/m-framework-common/pom.xml" />
       </list>
     </option>
   </component>

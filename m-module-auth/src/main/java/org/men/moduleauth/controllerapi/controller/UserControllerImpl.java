@@ -1,6 +1,6 @@
 package org.men.moduleauth.controllerapi.controller;
 
-import org.men.frameworkcommon.response.ResponseVO;
+import org.men.framework.common.response.ResponseVO;
 import org.men.moduleauth.controllerapi.UserController;
 import org.men.moduleauth.entity.User;
 import org.men.moduleauth.service.UserService;

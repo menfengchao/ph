@@ -7,9 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="m-module-auth" />
-        <module name="m-server-eureka" />
         <module name="procedureHouse" />
-        <module name="m-module-article" />
         <module name="m-framework-common" />
       </profile>
     </annotationProcessing>
