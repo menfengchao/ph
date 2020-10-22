@@ -1,9 +1,20 @@
 server:
-    servlet:
-        context-path: /serverEureka
-    jackson:
-        date-format: yyyy-MM-dd HH:mm:ss
-        time-zone: GMT+8
+    port: 10100
 
+
+eureka:
+  server:
+##关闭自我保护模式
+    enable-self-preservation: false
+  instance:
+    hostname: serverEureka10100
+##不要向注册中心注册自己
+  client:
+    register-with-eureka: false
+##表示不去检索其他的服务，因为服务注册中心本身的职责就是维护服务实例，它也不需要去检索其他服务
+    fetch-registry: false
+##指定服务注册中心地址 这里直接指向了本服务
+    service-url:
+      defaultZone: http://127.0.0.1:10200/serverEureka/eureka/
 
 

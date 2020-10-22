@@ -12,4 +12,10 @@ public class ServerEurekaApplication {
         SpringApplication.run(ServerEurekaApplication.class, args);
     }
 
+
+
+
+
+
+
 }
