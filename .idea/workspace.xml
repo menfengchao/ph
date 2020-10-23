@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5985c57d-f29a-4d14-9cf5-66d065d3aa58" name="Default" comment="用户模块更新为授权中心">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/PersonModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-module-auth/src/test/java/org/men/user/protobufTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/Person.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m-module-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m-module-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/conf/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/conf/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m-server-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m-server-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m-server-eureka/src/main/java/org/men/servereureka/ServerEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/m-server-eureka/src/main/java/org/men/servereureka/ServerEurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m-server-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/m-server-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m-module-auth/src/test/java/org/men/user/protobufTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/m-module-auth/src/test/java/org/men/user/protobufTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/Person.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/Person.proto" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/m-framework-common/target/" />
@@ -58,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/proto/Person.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -82,17 +73,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m-module-auth/src/test/java/org/men/user/protobufTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="231">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,10 +200,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/mer.java" />
         <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/myPerson.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/Person.proto" />
         <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/PersonModel.java" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java" />
         <option value="$PROJECT_DIR$/m-module-auth/src/test/java/org/men/user/protobufTest.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/Person.proto" />
+        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java" />
       </list>
     </option>
   </component>
@@ -251,8 +242,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="476" />
-    <option name="y" value="462" />
+    <option name="x" value="185" />
+    <option name="y" value="15" />
     <option name="width" value="1370" />
     <option name="height" value="735" />
   </component>
@@ -606,7 +597,7 @@
       <workItem from="1603330149098" duration="3320000" />
       <workItem from="1603349212366" duration="987000" />
       <workItem from="1603351771400" duration="5913000" />
-      <workItem from="1603357718295" duration="4644000" />
+      <workItem from="1603357718295" duration="8658000" />
     </task>
     <task id="LOCAL-00001" summary="用户模块更新为授权中心">
       <created>1569833054893</created>
@@ -629,13 +620,17 @@
       <option name="project" value="LOCAL" />
       <updated>1595664791389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="用户模块更新为授权中心">
+      <created>1603362517127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603362517128</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="protobufTest_testN - 2020.10.22 at 17h 57m 35s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="protobufTest_testN - 2020.10.22 at 17h 58m 09s.xml">
       <configuration name="protobufTest.testN" configurationId="JUnit" />
     </history-entry>
@@ -663,9 +658,12 @@
     <history-entry file="protobufTest_testN - 2020.10.22 at 18h 06m 48s.xml">
       <configuration name="protobufTest.testN" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="protobufTest_testN - 2020.10.23 at 13h 40m 53s.xml">
+      <configuration name="protobufTest.testN" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91120000" />
+    <option name="totallyTimeSpent" value="95134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,10 +675,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24664879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -690,7 +688,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28611898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28611898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19546743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -704,7 +702,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="LuaCheck" order="14" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GenProtobuf" order="16" weight="0.4220963" />
+      <window_info anchor="bottom" id="GenProtobuf" order="16" visible="true" weight="0.33427763" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -764,9 +762,9 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用户模块更新为授权中心" />
     <MESSAGE value="file name update" />
-    <option name="LAST_COMMIT_MESSAGE" value="file name update" />
+    <MESSAGE value="用户模块更新为授权中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户模块更新为授权中心" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1032,13 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/PersonModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4046">
@@ -1049,20 +1040,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/Person.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m-module-auth/src/test/java/org/men/user/protobufTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="231">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/Person.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

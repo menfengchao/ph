@@ -2,9 +2,7 @@ package org.men.user;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import org.junit.Test;
-import org.men.moduleauth.proto.Person;
 import org.men.moduleauth.proto.PersonModel;
-import org.springframework.beans.BeanUtils;
 
 /**
  * @ClassName protobufTest
