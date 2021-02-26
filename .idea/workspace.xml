@@ -1,33 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:m-framework-common" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5985c57d-f29a-4d14-9cf5-66d065d3aa58" name="Default" comment="protobuf">
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/BaseCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/BaseCountDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/CouponDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/IBaseCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/Merchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/PromotionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/PromotionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/RedPacketDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/SupportPromotions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/UserCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/UserRedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/CommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/ServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/StartApache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/StartTomcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/concurrent/LockSupportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/concurrent/ThreadDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/singleton/SingletonFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/m-framework-common/target/" />
-    <ignored path="$PROJECT_DIR$/m-module-article/target/" />
-    <ignored path="$PROJECT_DIR$/m-module-user/target/" />
-    <ignored path="$PROJECT_DIR$/m-server-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/mserverauth/target/" />
-    <ignored path="$PROJECT_DIR$/m-server-auth/target/" />
-    <ignored path="$PROJECT_DIR$/m-module-auth/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,125 +79,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/PromotionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/RedPacketDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/SupportPromotions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/OrderDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/UserRedPacket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/UserCoupon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/Merchandise.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/PromotionType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -177,83 +87,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>coverMemberRight.do</find>
-      <find>dockplat</find>
-      <find>:30001/dockplat/adjustPoint.do</find>
-      <find>D:\private\work\ph\src\test\proto</find>
-      <find>RedPacket</find>
-      <find>商品原单价金额为</find>
-      <find>count</find>
-      <find>BaseCount</find>
-      <find>countPayMoney</find>
-      <find>/delete</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/config/RedisTokenStore.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/config/ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/core/entity/User.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/core/dao/jpa/UserRepository.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/config/MyUserDetailService.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/config/AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/config/PhAuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/core/controller/MyAuthController.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/config/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/m-server-auth/src/main/java/org/men/mserverauth/MServerAuthApplication.java" />
-        <option value="$PROJECT_DIR$/m-server-eureka/src/test/java/org/mern/servereureka/ColnoObject.java" />
-        <option value="$PROJECT_DIR$/m-server-eureka/src/test/java/org/mern/servereureka/ServerEurekaApplicationTests.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/pom.xml" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/main/java/org/men/frameworkcommon/utils/ExcelUtils.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/main/java/org/men/frameworkcommon/utils/HttpPostUrl.java" />
-        <option value="$PROJECT_DIR$/m-server-eureka/src/test/java/org/mern/servereureka/UpdateInterface.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/main/java/org/men/framework/common/utils/CommonUtils.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/framework/common/DeadLockDemo.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/main/java/org/men/framework/common/CommonApplication.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/framework/common/AdjustPoint.java" />
-        <option value="$PROJECT_DIR$/m-server-eureka/src/main/java/org/men/proto/Person" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/proto/Person.java" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/proto/Person.proto" />
-        <option value="$PROJECT_DIR$/m-module-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/proto/Person.proto" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.proto" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/mer.java" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/myPerson.java" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/PersonModel.java" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/test/java/org/men/user/protobufTest.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/Person.proto" />
-        <option value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/Order.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/OrderDetail.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/UserCoupon.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/IBaseCount.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/BaseCountDecorator.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/Merchandise.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/PromotionType.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/UserRedPacket.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/SupportPromotions.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/PromotionFactory.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/RedPacketDecorator.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/CouponDecorator.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/BaseCount.java" />
-        <option value="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/App.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -262,107 +99,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="185" />
-    <option name="y" value="15" />
-    <option name="width" value="1370" />
-    <option name="height" value="735" />
-  </component>
+  <component name="ProjectId" id="1nYDrQoL3bIvMIjncwTantdxvnX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <showMembers ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-              <item name="m-framework-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-              <item name="m-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-              <item name="m-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-              <item name="m-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-              <item name="m-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-              <item name="m-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="men" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-              <item name="m-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="men" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="procedureHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ph" type="462c0819:PsiDirectoryNode" />
-              <item name="m-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="men" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -374,6 +115,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -388,6 +131,9 @@
     <property name="project.structure.proportion" value="0.22634898" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -407,19 +153,7 @@
       <recent name="D:\private\work\ph\m-module-auth\src\main\java\org\men" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.SingletonFactory">
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="lua.exe" />
       <option name="file" value="" />
@@ -442,13 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BatchDeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.men.framework.common.BatchDeal" />
+    <configuration name="CommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.men.command.CommandTest" />
       <module name="m-framework-common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.men.framework.common.*" />
+          <option name="PATTERN" value="org.men.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,13 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.men.framework.common.DeadLockDemo" />
+    <configuration name="LockSupportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.men.concurrent.LockSupportTest" />
       <module name="m-framework-common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.men.framework.common.*" />
+          <option name="PATTERN" value="org.men.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PromotionFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.men.decorator.PromotionFactory" />
+    <configuration name="SingletonFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.men.singleton.SingletonFactory" />
       <module name="m-framework-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.men.decorator.*" />
+          <option name="PATTERN" value="org.men.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -483,17 +215,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="protobufTest.testN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="m-module-auth" />
+    <configuration name="LockSupportTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="m-framework-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.men.user.*" />
+          <option name="PATTERN" value="org.men.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.men.user" />
-      <option name="MAIN_CLASS_NAME" value="org.men.user.protobufTest" />
-      <option name="METHOD_NAME" value="testN" />
+      <option name="PACKAGE_NAME" value="org.men.concurrent" />
+      <option name="MAIN_CLASS_NAME" value="org.men.concurrent.LockSupportTest" />
+      <option name="METHOD_NAME" value="one" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -507,20 +239,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeadLockDemo" />
-      <item itemvalue="Application.BatchDeal" />
-      <item itemvalue="Application.PromotionFactory" />
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.protobufTest.testN" />
+      <item itemvalue="Application.CommandTest" />
+      <item itemvalue="Application.LockSupportTest" />
+      <item itemvalue="JUnit.LockSupportTest.one" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Application.SingletonFactory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonFactory" />
+        <item itemvalue="Application.LockSupportTest" />
+        <item itemvalue="JUnit.LockSupportTest.one" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.PromotionFactory" />
-        <item itemvalue="JUnit.protobufTest.testN" />
-        <item itemvalue="Application.BatchDeal" />
-        <item itemvalue="Application.DeadLockDemo" />
+        <item itemvalue="Application.CommandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -559,6 +291,9 @@
       <workItem from="1603434335953" duration="1810000" />
       <workItem from="1604368441108" duration="16982000" />
       <workItem from="1604390865670" duration="2306000" />
+      <workItem from="1611558330239" duration="4105000" />
+      <workItem from="1612158555711" duration="2335000" />
+      <workItem from="1614320250178" duration="3378000" />
     </task>
     <task id="LOCAL-00001" summary="用户模块更新为授权中心">
       <created>1569833054893</created>
@@ -598,41 +333,6 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="protobufTest_testN - 2020.10.22 at 17h 58m 09s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.22 at 17h 58m 24s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.22 at 17h 58m 47s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.22 at 17h 58m 51s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.22 at 17h 58m 56s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.22 at 17h 59m 06s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.22 at 18h 04m 23s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.22 at 18h 06m 42s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.22 at 18h 06m 48s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="protobufTest_testN - 2020.10.23 at 13h 40m 53s.xml">
-      <configuration name="protobufTest.testN" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116436000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -642,92 +342,50 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8491957" visible="true" weight="0.26912183" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24220963" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19830029" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1508043" side_tool="true" visible="true" weight="0.26912183" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42634562" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="LuaCheck" order="14" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GenProtobuf" order="16" sideWeight="0.49932975" weight="0.13314448" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="BPMNPalette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.14232409" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
-      <window_info anchor="right" id="Maven" order="11" sideWeight="0.48016998" visible="true" weight="0.22184986" />
-      <window_info anchor="right" id="Word Book" order="12" sideWeight="0.51983005" side_tool="true" weight="0.060991958" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32171583" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3101983" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19546743" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19830029" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42634562" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="LuaCheck" order="14" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GenProtobuf" order="16" weight="0.4220963" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="BPMNPalette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.14232409" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
-      <window_info anchor="right" id="Maven" order="11" sideWeight="0.48016998" visible="true" weight="0.22184986" />
-      <window_info anchor="right" id="Word Book" order="12" sideWeight="0.51983005" side_tool="true" weight="0.060991958" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="file name update" />
@@ -735,17 +393,57 @@
     <MESSAGE value="protobuf" />
     <option name="LAST_COMMIT_MESSAGE" value="protobuf" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/CouponDecorator.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="779" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1614321337942">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="779" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1614321337942" />
+    <state x="779" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.814@0.23.1440.814" timestamp="1611559844241" />
+    <state x="100" y="125" width="1240" height="611" key="DiffContextDialog" timestamp="1611559181170">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="100" y="125" width="1240" height="611" key="DiffContextDialog/0.23.1440.814@0.23.1440.814" timestamp="1611559181170" />
+    <state width="1398" height="447" key="GridCell.Tab.0.bottom" timestamp="1614323361625">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="447" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614323361625" />
+    <state width="1398" height="447" key="GridCell.Tab.0.center" timestamp="1614323361624">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="447" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614323361624" />
+    <state width="1398" height="447" key="GridCell.Tab.0.left" timestamp="1614323361624">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="447" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614323361624" />
+    <state width="1398" height="447" key="GridCell.Tab.0.right" timestamp="1614323361625">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="447" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614323361625" />
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom" timestamp="1614322146288">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614322146288" />
+    <state width="1398" height="300" key="GridCell.Tab.1.center" timestamp="1614322146287">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614322146287" />
+    <state width="1398" height="300" key="GridCell.Tab.1.left" timestamp="1614322146286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614322146286" />
+    <state width="1398" height="300" key="GridCell.Tab.1.right" timestamp="1614322146288">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614322146288" />
+    <state x="421" y="147" width="598" height="606" key="find.popup" timestamp="1611562796317">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="147" width="598" height="606" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1611562796317" />
+    <state x="421" y="156" width="598" height="548" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1611558684802" />
+    <state x="385" y="196" key="search.everywhere.popup" timestamp="1614320982711">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1614320982711" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -769,323 +467,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/main/java/org/men/framework/common/CommonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/549514557/FileRecv/MobileFile/AdjustPoint.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ArrayBlockingQueue.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/AbstractQueue.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/LinkedBlockingQueue.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/LinkedBlockingDeque.java" />
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/framework/common/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/framework/common/CommonApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" selection-start-line="8" selection-start-column="4" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/framework/common/AdjustPoint.java" />
-    <entry file="file://$PROJECT_DIR$/m-server-eureka/src/main/java/org/men/proto.java" />
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/conf/Swagger2Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/conf/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/conf/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="112" column="7" selection-start-line="112" selection-start-column="7" selection-end-line="117" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/proto/Person.java" />
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/proto/Person.proto" />
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar!/com/google/protobuf/GeneratedMessageV3.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/mer.java" />
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/myPerson.java" />
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Tset.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/PersonModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#22361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/proto/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/test/java/org/men/user/protobufTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/conf/InitApplicationRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-server-eureka/src/main/java/org/men/servereureka/ServerEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" selection-start-line="83" selection-end-line="83" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/Person.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/filter/AuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-module-auth/src/main/java/org/men/moduleauth/filter/AuthorizationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/BaseCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/BaseCountDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/CouponDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/IBaseCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/PromotionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/PromotionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/RedPacketDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/Merchandise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/SupportPromotions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/UserRedPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/UserCoupon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-framework-common/src/test/java/org/men/decorator/OrderDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

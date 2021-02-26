@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="m-module-auth" />
+        <module name="ph" />
         <module name="procedureHouse" />
         <module name="m-framework-common" />
       </profile>
