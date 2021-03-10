@@ -41,20 +41,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5985c57d-f29a-4d14-9cf5-66d065d3aa58" name="Default" comment="protobuf">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/CommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/ServerCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/StartApache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/command/StartTomcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/concurrent/LockSupportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/concurrent/ThreadDome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/singleton/SingletonFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/FunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/composite/CompositeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/composite/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/singleton/BeanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +75,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -107,6 +100,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="GO_FMT" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -153,7 +147,7 @@
       <recent name="D:\private\work\ph\m-module-auth\src\main\java\org\men" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonFactory">
+  <component name="RunManager" selected="Application.FunctionTest">
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="lua.exe" />
       <option name="file" value="" />
@@ -163,12 +157,12 @@
       <option name="charset" value="UTF-8" />
       <option name="showConsole" value="true" />
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.men.decorator.App" />
+    <configuration name="CompositeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.men.composite.CompositeTest" />
       <module name="m-framework-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.men.decorator.*" />
+          <option name="PATTERN" value="org.men.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.men.command.CommandTest" />
+    <configuration name="FunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.men.FunctionTest" />
       <module name="m-framework-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.men.command.*" />
+          <option name="PATTERN" value="org.men.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,20 +233,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.CommandTest" />
       <item itemvalue="Application.LockSupportTest" />
+      <item itemvalue="Application.SingletonFactory" />
+      <item itemvalue="Application.CompositeTest" />
       <item itemvalue="JUnit.LockSupportTest.one" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Application.SingletonFactory" />
+      <item itemvalue="Application.FunctionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionTest" />
+        <item itemvalue="Application.CompositeTest" />
         <item itemvalue="Application.SingletonFactory" />
         <item itemvalue="Application.LockSupportTest" />
         <item itemvalue="JUnit.LockSupportTest.one" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.CommandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +287,9 @@
       <workItem from="1604390865670" duration="2306000" />
       <workItem from="1611558330239" duration="4105000" />
       <workItem from="1612158555711" duration="2335000" />
-      <workItem from="1614320250178" duration="3378000" />
+      <workItem from="1614320250178" duration="4326000" />
+      <workItem from="1615208605007" duration="3828000" />
+      <workItem from="1615339054050" duration="1761000" />
     </task>
     <task id="LOCAL-00001" summary="用户模块更新为授权中心">
       <created>1569833054893</created>
@@ -330,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603434105157</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="protobuf">
+      <created>1614324967554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614324967554</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -394,51 +397,69 @@
     <option name="LAST_COMMIT_MESSAGE" value="protobuf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="779" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1614321337942">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="779" y="143" key="#com.intellij.ide.util.MemberChooser" timestamp="1615256341040">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="779" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1614321337942" />
+    <state x="779" y="143" key="#com.intellij.ide.util.MemberChooser/0.23.1440.809@0.23.1440.809" timestamp="1615256341040" />
     <state x="779" y="144" key="#com.intellij.ide.util.MemberChooser/0.23.1440.814@0.23.1440.814" timestamp="1611559844241" />
+    <state x="483" y="138" key="#xdebugger.evaluate" timestamp="1615345515192">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="483" y="138" key="#xdebugger.evaluate/0.23.1440.809@0.23.1440.809" timestamp="1615345515192" />
     <state x="100" y="125" width="1240" height="611" key="DiffContextDialog" timestamp="1611559181170">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="100" y="125" width="1240" height="611" key="DiffContextDialog/0.23.1440.814@0.23.1440.814" timestamp="1611559181170" />
-    <state width="1398" height="447" key="GridCell.Tab.0.bottom" timestamp="1614323361625">
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom" timestamp="1615346655374">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614394854009" />
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1615346655374" />
+    <state width="1398" height="219" key="GridCell.Tab.0.center" timestamp="1615346655373">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614394854007" />
+    <state width="1398" height="219" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1615346655373" />
+    <state width="1398" height="219" key="GridCell.Tab.0.left" timestamp="1615346655373">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614394854006" />
+    <state width="1398" height="219" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1615346655373" />
+    <state width="1398" height="219" key="GridCell.Tab.0.right" timestamp="1615346655374">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614394854008" />
+    <state width="1398" height="219" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1615346655374" />
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom" timestamp="1615345562632">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614394854005" />
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom/0.23.1440.809@0.23.1440.809" timestamp="1615345562632" />
+    <state width="1398" height="255" key="GridCell.Tab.1.center" timestamp="1615345562631">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614394854003" />
+    <state width="1398" height="255" key="GridCell.Tab.1.center/0.23.1440.809@0.23.1440.809" timestamp="1615345562631" />
+    <state width="1398" height="255" key="GridCell.Tab.1.left" timestamp="1615345562631">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614394854002" />
+    <state width="1398" height="255" key="GridCell.Tab.1.left/0.23.1440.809@0.23.1440.809" timestamp="1615345562631" />
+    <state width="1398" height="255" key="GridCell.Tab.1.right" timestamp="1615345562631">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="1398" height="300" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614394854004" />
+    <state width="1398" height="255" key="GridCell.Tab.1.right/0.23.1440.809@0.23.1440.809" timestamp="1615345562631" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1614324970746">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="447" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614323361625" />
-    <state width="1398" height="447" key="GridCell.Tab.0.center" timestamp="1614323361624">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="447" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614323361624" />
-    <state width="1398" height="447" key="GridCell.Tab.0.left" timestamp="1614323361624">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="447" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614323361624" />
-    <state width="1398" height="447" key="GridCell.Tab.0.right" timestamp="1614323361625">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="447" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614323361625" />
-    <state width="1398" height="300" key="GridCell.Tab.1.bottom" timestamp="1614322146288">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="300" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614322146288" />
-    <state width="1398" height="300" key="GridCell.Tab.1.center" timestamp="1614322146287">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="300" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614322146287" />
-    <state width="1398" height="300" key="GridCell.Tab.1.left" timestamp="1614322146286">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="300" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614322146286" />
-    <state width="1398" height="300" key="GridCell.Tab.1.right" timestamp="1614322146288">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="300" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614322146288" />
-    <state x="421" y="147" width="598" height="606" key="find.popup" timestamp="1611562796317">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614324970746" />
+    <state x="421" y="155" width="674" height="548" key="find.popup" timestamp="1615346283999">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="421" y="147" width="598" height="606" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1611562796317" />
+    <state x="421" y="155" width="674" height="548" key="find.popup/0.23.1440.809@0.23.1440.809" timestamp="1615346283999" />
     <state x="421" y="156" width="598" height="548" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1611558684802" />
     <state x="385" y="196" key="search.everywhere.popup" timestamp="1614320982711">
       <screen x="0" y="0" width="1440" height="900" />
@@ -448,25 +469,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>orderDetail.getPayMoney()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>IdWorker.getId()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>IdWorker</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="masterDetails">
     <states>
