@@ -126,6 +126,16 @@
             <artifactId>poi</artifactId>
             <version>2.5.1-final-20040804</version>
         </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun.api.gateway</groupId>
+            <artifactId>sdk-core-java</artifactId>
+            <version>1.1.5</version>
+        </dependency>
     </dependencies>
 
     <build>
