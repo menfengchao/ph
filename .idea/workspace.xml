@@ -40,25 +40,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5985c57d-f29a-4d14-9cf5-66d065d3aa58" name="Default" comment="练习提交">
-      <change afterPath="$PROJECT_DIR$/.idea/bashsupport_project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/main/java/org/men/framework/common/utils/ThreadPoolFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/main/resources/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/auth/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/auth/HttpsApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/function/BiFunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/function/FinalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/leetcode/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/leetcode/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/leetcode/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/leetcode/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/sync/CompletableFutureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m-framework-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m-framework-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/function/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="5985c57d-f29a-4d14-9cf5-66d065d3aa58" name="Default" comment="练习提交-2021-8-9">
+      <change beforePath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/leetcode/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/m-framework-common/src/test/java/org/men/leetcode/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +288,7 @@
       <workItem from="1628058652397" duration="2132000" />
       <workItem from="1628069046245" duration="4000" />
       <workItem from="1628501181594" duration="2809000" />
-      <workItem from="1628504613492" duration="3083000" />
+      <workItem from="1628504613492" duration="3299000" />
     </task>
     <task id="LOCAL-00001" summary="用户模块更新为授权中心">
       <created>1569833054893</created>
@@ -356,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615347008870</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="练习提交-2021-8-9">
+      <created>1628507740416</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628507740416</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -418,7 +408,8 @@
     <MESSAGE value="用户模块更新为授权中心" />
     <MESSAGE value="protobuf" />
     <MESSAGE value="练习提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习提交" />
+    <MESSAGE value="练习提交-2021-8-9" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习提交-2021-8-9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="454" y="326" width="531" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627612644004">
@@ -502,6 +493,10 @@
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="308" y="169" key="IDE.errors.dialog/0.23.1440.809@0.23.1440.809" timestamp="1627871352763" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1628507743512">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.804/1440.23.1920.1057@0.23.1440.804" timestamp="1628507743512" />
     <state x="508" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628058656822">
       <screen x="0" y="23" width="1440" height="809" />
     </state>

@@ -1,7 +1,5 @@
 package org.men.leetcode;
 
-import com.alibaba.fastjson.JSON;
-
 import java.util.Scanner;
 
 /**
@@ -34,7 +32,7 @@ public class MergeSort {
         mergeSort(nums, left, mid);
         mergeSort(nums, mid + 1, right);
         int i = left, j = mid + 1, k = 0;
-        //比较左右两侧数据 因为 nums已经部分有序 所以只要一个不满足则跳出循环 由下面部分弥补
+        //比较左右两侧数据 因为 nums已经部分有序 所以只要一个不满足则跳出循环 由下面左右部分循环弥补
         while (i <= mid && j <= right) {
             if (nums[i] < nums[j]) {
                 tmp[k++] = nums[i++];
